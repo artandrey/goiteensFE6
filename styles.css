@@ -1,3 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
 .site-body {
     background-color: lightslategray;
+}
+
+.site-header {
+    height: 770px;
+    background-image: url(./img/bg.jpg);
+    padding-top: 40px;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
