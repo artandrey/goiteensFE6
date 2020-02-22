@@ -1,0 +1,78 @@
+.section-name {
+position: relative;
+margin-left: unset;
+margin-bottom: 30px;
+}
+@media screen and (min-width:1000px) {
+    .benefits-section {
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Directions-section {
+    margin-bottom: 100px;
+}
+.main__list {
+    width: 100%;
+}
+.intro-section_container-text {
+    display: flex;
+    align-items: center;
+}
+.intro-section_container {
+    display: flex;
+    align-items: center;
+}
+}
+@media(min-width: 768px){
+    .container{
+        width: 89%;
+    }
+    .benefits-section-tittle {
+        font-size: 33px;
+    }
+    .benefits-section-tittle::before {
+        top: 33px;
+    }
+    .main__text {
+        font-size: 33px;
+    }
+}
+.nav-box-list {
+    padding: unset;
+}
+ul {
+    list-style: none;
+}
+@media screen and (min-width:800px) and (max-width:1200px) {
+    .benefits-section-list {
+        justify-content: space-between;
+    }
+    .benefits-section-list-item {
+        margin: unset;
+    }
+}
+@media screen and (max-width:786px) {
+    .list-item__box {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .container-list__item {
+        padding-top: 18px;
+    }
+    .misha-name-box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:900px) {
+    .intro-section_photo {
+    height: 200%;
+    width: auto;
+    margin: 0 auto;
+    }
+}

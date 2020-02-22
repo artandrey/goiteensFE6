@@ -1,0 +1,325 @@
+.container {
+    width: 87%;
+    display: block;
+    margin: 0 auto;
+}
+
+.benefits-section-list{
+    display: flex;
+    flex-wrap: wrap;
+        list-style: none;
+        /* margin-left: 10%; */
+}
+
+.benefits-section-tittle {
+    margin-left: 8%;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 25px;
+ }
+
+ .benefits-section-tittle::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/benefits/icon-tittle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 28px;
+ }
+
+ /* mobile version */
+
+ @media (max-width: 760px) {
+
+    .benefits-section-tittle::before {
+        right: 30px;
+    }
+
+    .benefits-section-list{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10%; 
+    }
+    
+ }
+
+.benefits-section-text{
+    margin-bottom: 20px;
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+}
+
+.benefits-section-list-item1{
+    width: 220px;
+}
+
+.benefits-section-list-item2{
+    width: 220px;
+}
+
+.benefits-section-list-item3{
+    width: 220px;
+}
+
+.benefits-section-list-item4 {
+    width: 220px;
+}
+
+.benefits-section-list-item5{
+    width: 220px;
+}
+
+.benefits-section-list-item6{
+    width: 220px;
+}
+
+.benefits-section-list-item7{
+    width: 220px;
+}
+
+.benefits-section-list-item1::before {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../images/benefits/icon-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.benefits-section-list-item2::before {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../images/benefits/icon-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.benefits-section-list-item3::before {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../images/benefits/icon-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.benefits-section-list-item4::before {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../images/benefits/icon-4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.benefits-section-list-item5::before {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../images/benefits/icon-5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.benefits-section-list-item6::before {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../images/benefits/icon-6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.benefits-section-list-item7::before {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../images/benefits/icon-7.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.benefits-section {
+    margin-bottom: 100px;
+}
+
+/* tablet version */
+
+@media (min-width: 765px) and (max-width: 1000px) {
+
+    .benefits-section-tittle::before {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-image: url(../images/benefits/icon-tittle-laptop.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .benefits-section-list-item1{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item2{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item3{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item4{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item5{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item6{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item7{
+        margin-left: 5%;
+    }
+
+    .benefits-section-tittle {
+        position: relative;
+        right: 30px;
+    }
+
+    .benefits-section-list {
+        margin-left: 10%;
+    }
+
+    .benefits-section-text {
+        font-size: 16px;
+    }
+    
+    .benefits-section-tittle::before {
+        right: 35px;
+    }
+}
+
+/* laptop version */
+
+@media(min-width: 1001px) {
+
+    .benefits-section-list-item1::before{
+        background-image: url(../images/benefits/1.png);
+        width: 95px;
+        height: 95px;
+    }
+
+    .benefits-section-list-item2::before{
+        background-image: url(../images/benefits/2.png);
+        width: 95px;
+        height: 95px;
+    }
+
+    .benefits-section-list-item3::before{
+        background-image: url(../images/benefits/3.png);
+        width: 95px;
+        height: 95px;
+    }
+
+    .benefits-section-list-item4::before{
+        background-image: url(../images/benefits/4.png);
+        width: 95px;
+        height: 95px;
+    }
+
+    .benefits-section-list-item5::before{
+        background-image: url(../images/benefits/5.png);
+        width: 95px;
+        height: 95px;
+    }
+
+    .benefits-section-list-item6::before{
+        background-image: url(../images/benefits/6.png);
+        width: 95px;
+        height: 95px;
+    }
+
+    .benefits-section-list-item7::before{
+        background-image: url(../images/benefits/7.png);
+        width: 95px;
+        height: 95px;
+    }
+
+    .benefits-section-list-item1{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item2{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item3{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item4{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item5{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item6{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list-item7{
+        margin-left: 5%;
+    }
+
+    .benefits-section-list {
+        margin-top: 60px;
+    }
+
+    .benefits-section-tittle {
+        position: relative;
+        right: 30px;
+    }
+
+    .benefits-section-tittle::before {
+        right: 35px;
+    }
+
+    .benefits-section-text {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .benefits-section-tittle::before {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-image: url(../images/benefits/icon-tittle-laptop.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
