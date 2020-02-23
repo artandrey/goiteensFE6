@@ -1,0 +1,15 @@
+<script>
+    "use strict"
+let body = document.querySelector("body");
+console.log(body);
+let burger = body.querySelector(".menu-btn");
+console.log(burger);
+let navigation = body.querySelector(".nav-box");
+console.log(navigation);
+function OpenMenu() {
+  navigation.style.display = (navigation.style.display === "none") ? "block" : "none";
+
+  (navigation.style.display === "block") ? (burger.className = "menu-btn-close") : (burger.className = "menu-btn");
+}
+burger.addEventListener("click", OpenMenu);
+</script>

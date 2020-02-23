@@ -1,0 +1,153 @@
+.kostya-name-section {
+    padding-bottom: 75px;
+    padding-top: 20px;
+}
+
+.kostya-name-box {
+    margin-top: 20px;
+    width: 88%;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url(../images/kostya-section/background2.jfif);
+    border: 0.5px solid gray;
+    box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.53);
+    background-color: #ffffff;
+    border-style: dashed;
+}
+
+.kostya-name-box__img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.kostya-name-box__name {
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.kostya-title-box {
+    margin-top: 50px;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 0.5px solid gray;
+    box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.53);
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.kostya-title-box__text {
+    border-style: dashed;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
+
+.kostya-container {
+    margin: 0 auto;
+    width: 89%;
+    background: #e65c00;
+    background: -webkit-linear-gradient(to top, #e65c00, #f9d423);
+    background: linear-gradient(to top, #e65c00, #f9d423);
+}
+
+.kostya-title-box__text::before {
+    content: "“";
+    display: block;
+    color: #eaaf3e;
+    width: 20px;
+    height: 15px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.kostya-title-box__text::after {
+    content: "“";
+    display: flex;
+    color: #eaaf3e;
+    width: 20px;
+    height: 15px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 5px;
+    flex-direction: row-reverse;
+    padding-bottom: 10px;
+    padding-right: 143px;
+    transform: rotate(180deg)
+}
+
+/* ______________________________________________TABLET___________________________________________________________ */
+@media(min-width: 768px) {
+    .kostya-container {
+        width: 81%;
+    }
+
+    .kostya-name-box {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .kostya-name-box__img {
+        width: 25%;
+        margin-left: 45px;
+        height: auto;
+        
+    }
+
+    .kostya-name-box__name {
+        font-size: 22px;
+        margin-top: 50px;
+        margin-right: 160px;
+    }
+    .kostya-title-box__text{
+        font-size: 20px;
+    }
+    .kostya-title-box__text::after {
+        padding-right: 347px;
+    }
+
+    /* _______________________________________DESKTOP_____________________________________________ */
+    @media(min-width: 1200px){
+
+    .kostya-name-box__name {
+        font-size: 30px;
+        margin-top: 73px;
+    }
+
+    .kostya-name-box__img {
+        margin-left: 85px;
+        
+    }
+
+    .kostya-title-box__text {
+        font-size: 30px;
+    }
+
+    .kostya-title-box__text::before {
+        font-size: 55px;
+    }
+    .kostya-title-box__text::after{
+        padding-right: 550px;
+        font-size: 55px;
+    }
+}
+
+
+
+
+
+
+
+}
